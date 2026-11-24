@@ -52,6 +52,22 @@ const CANDIDATES: Candidate[] = [
     line: "Fort Lumen: clear skies, light winds, and the streetlamps will come on early out of habit. High 21, low 12.",
     scores: [2, 1, 2, 1, 1],
   },
+  // Pass 2 challengers
+  {
+    city: "Cape Verity",
+    line: "Cape Verity: a fine dry day, winds light, and the lighthouse keeper has hung his washing out in Morse. High 18.",
+    scores: [2, 2, 2, 1, 1],
+  },
+  {
+    city: "San Felto",
+    line: "San Felto: thunder by lunch, the square's statues holding their breath; take the long way home under the arcades.",
+    scores: [2, 2, 1, 2, 1],
+  },
+  {
+    city: "Bracknell Minor",
+    line: "Bracknell Minor: mist on the canal, sun later, ducks crossing the towpath in single file by six. High 15.",
+    scores: [2, 1, 2, 2, 1],
+  },
 ];
 
 function total(c: Candidate): number {
